@@ -7,3 +7,7 @@ dist/
 build/
 .vercel/
 *.log
+
+# Large media — fetched from origin or hosted elsewhere
+assets/media/*.mp4
+assets/media/*.mov
