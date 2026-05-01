@@ -331,7 +331,11 @@ section.light::before, section.paper::before { background: var(--hair); }
   inset: 0;
   z-index: 0;
   will-change: transform, clip-path, border-radius;
-  background-image: url('/assets/media/hero-poster.jpg');
+  background-image: url('/assets/media/hero-roof.jpg');
+  background-image: image-set(
+    url('/assets/media/hero-roof.webp') type('image/webp'),
+    url('/assets/media/hero-roof.jpg') type('image/jpeg')
+  );
   background-size: cover;
   background-position: center;
   background-color: var(--ink);
